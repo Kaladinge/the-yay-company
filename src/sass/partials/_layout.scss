@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: radial-gradient($white, $background-color, #e5e5e5);
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+/* buttons */
+
+.btn-primary {
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 10px;
+  position: relative;
+  border: none;
+}
+
+.btn-secondary {
+  color: $white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
